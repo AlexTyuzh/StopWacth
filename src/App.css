@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.stop-watch-container {
+  margin: 100px 500px;
+  text-align: center;
+  padding: 4em;
+  width: 500px;
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/18/22/58/stars-1837306_640.jpg);
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 5px rgb(129, 107, 226);
+  color: white;
+  text-shadow: 0px 5px 15px #ffffff;
+}
+
+.stop-watch-container h1 {
+  padding-bottom: 1em;
+  font-family: "Iceland", sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+.stop-watch-btn button {
+  font-family: "Iceland", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin: -2em 1.2em 0em 1.2em;
+  padding: 0.3em;
+  cursor: pointer;
+  background-color: rgb(208, 217, 233);
+  border-radius: 5px;
+  border-color: #d4e7e7;
+}
+
+.stop-watch {
+  padding-bottom: 1em;
+  font-family: "Iceland", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+}
