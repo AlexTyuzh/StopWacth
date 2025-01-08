@@ -4,11 +4,14 @@
 }
 
 .stop-watch-container {
-  margin: 100px 400px;
+  margin: 100px auto;
   text-align: center;
   padding: 4em;
-  width: 500px;
-  background-image: url(https://cdn.pixabay.com/photo/2016/11/18/22/58/stars-1837306_640.jpg);
+  max-width: 500px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3)
+    url(https://cdn.pixabay.com/photo/2016/11/18/22/58/stars-1837306_640.jpg);
+  background-blend-mode: darken;
   background-position: center;
   border-radius: 10px;
   box-shadow: 0px 10px 10px 5px rgb(129, 107, 226);
@@ -30,9 +33,10 @@
   margin: -2em 1.2em 0em 1.2em;
   padding: 0.3em;
   cursor: pointer;
-  background-color: rgb(208, 217, 233);
+  background-color: rgb(114, 72, 148);
   border-radius: 5px;
-  border-color: #d4e7e7;
+  border-color: #bf75d6;
+  color: antiquewhite;
 }
 
 .stop-watch {
@@ -41,4 +45,18 @@
   font-weight: 400;
   font-style: normal;
   font-size: 60px;
+}
+
+@media (max-width: 480px) {
+  .stop-watch-container {
+    width: 50%;
+    height: 200px;
+  }
+  .stop-watch-btn button {
+    margin: 0px 10px;
+    font-size: 14px;
+  }
+  .stop-watch {
+    font-size: 40px;
+  }
 }
